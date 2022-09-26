@@ -1,6 +1,7 @@
 body{
 margin: 0;
 padding: 0;
+background-color:#E3E6E3;
 }
 .head{
     background-color: rgb(0, 146, 112);
@@ -21,7 +22,7 @@ padding: 0;
     width: 80%;
     float: left;
     overflow: hidden;
-    padd
+    
 }
 .menu li{
     display: inline-block;
@@ -37,7 +38,7 @@ font-family:  Helvetica;
     
 }
 .menu2{
-    background-color: rgb(18, 4, 4);
+    background-color: #4A4A4A;
     color: rgb(246, 250, 253);
     margin: 0px;
     margin-left: 150px;
@@ -84,23 +85,28 @@ padding: 7px;
     display: flex;
     margin-top: -18px;
     margin-left: 150px;
-    border: 2px solid black;
+    border: 0.05px solid #FFFFFF;
+    
+    
     width:1020px;
-    border-top: 2px solid  white;
-    border-bottom: 2px solid white;
+    border-top: 0.1px solid  white;
+    border-bottom: 0.1px solid white;
+    background-color:#FFFFFF;
     
 
     }
     .fitem{
-        border: 2px solid black;
+    border: 0.05px hidden;
+    
         width: 233px;
-        height: 105px;
+        height: 85px;
         padding: 20px;
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
         color:black;
-        border-top: 2px solid  white;
-        border-bottom: 2px solid white;
+        border-top: 0.1px solid  white;
+        border-bottom: 0.1px solid white;
+        background-color:#FFFFFF;
     
         
     }
@@ -125,36 +131,46 @@ padding: 7px;
         margin-top: -12px;
         border: 2px solid rgb(244, 243, 243);
         width: 150px;
-
+        background-color:#FFFFFF;
     }
     .fitems{
 
         border: 2px solid rgb(231, 226, 226);
     }
     .container{
-        border: 2px solid black;
+    border: 0.05px solid #FFFFFF;
+    
         height: 408px;
         width: 500px;
-        margin-left: 346px;
-        margin-top: -410px;
+        margin-left: 308px;
+        margin-top: -439px;
         
         margin-right: 0px;
         padding-left:12px;
+        background-color:#FFFFFF;
 
 
 
     }
     .runss{
-        width: 250px;
+        width: 285px;
         height: 400px;
-        margin-left: 870px;
-        margin-top: -414px;
-        border: 2px solid black;
+        margin-left: 827px;
+        margin-top: -409px;
+    border: 0.05px solid #FFFFFF;
+    
         padding: 28px;
         padding-top: 0px;
         color: rgb(0, 146, 112);
+        background-color:#FFFFFF;
         
         
 
+    }
+    .ind{
+        color: brown;
+    }
+    .ind2{
+        color: rgb(150, 217, 16);
     }
 

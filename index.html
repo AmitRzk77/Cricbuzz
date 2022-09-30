@@ -6,26 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/icons/tryit.asp?icon=far_fa-user-circle&unicon=f2bd">
   </head>
   <body>
     <div class="head">
       <div class="content">
-        <div class="logo">
-          <img src="https://www.freelogovectors.net/wp-content/uploads/2022/01/cricbuzz-logo-freelogovectors.net_-400x130.png"width=100px alt=""/>
+         <div class="logo">
+          <img src="https://www.cricbuzz.com/images/cb_logo.svg"width=101px alt=""/>
                </div>
         <div class="menu">
         <ul>
-            <li><a href="">Live score</a></li>
-            <li><a href="">Schedule</a></li>
-            <li><a href="">Archieve</a></li
-              <li><a href="">Series</a></li
+          
+            <li class="tree"><a href="">Live Score</a></li>
+            
 
-            <li><a href="">Teams</a></li>
-            <li><a href="">Video</a></li>
-            <li><a href="">Ranking</a></li>
-            <li><a href="">More</a></li>
-            <input type="text" placeholder="search-box">
-
+            <li class="tree"><a href="">Schedule</a></li>
+            
+            
+            
+            
+            <li class="tree"><a href="">Archieve</a></li>
+            <select name="format" id="format2">
+              <option select disabled></option>
+              <option value="All">News</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+           
+            <select name="format" id="format2">
+              <option select disabled>Series</option>
+              <option value="All">Live score</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+            <select name="format" id="format2">
+              <option select disabled>Series</option>
+              <option value="All">Teams</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+            <select name="format" id="format2">
+              <option select disabled>Series</option>
+              <option value="All">Videos</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+            <select name="format" id="format2">
+              <option select disabled>Series</option>
+              <option value="All">Rankings</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+            <select name="format" id="format3">
+              <option select disabled>Series</option>
+              <option value="All">More</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+            <button class="cricket-plus">cricbuzz Plus</button>
+            <i class='far fa-user-circle'></i>
+           
+            <div class="search-box">
+              <input class="search-txt" type="text" name="" placeholder="Type to search">
+              <a class="search-btn" href="#">
+                  <i class="fas fa-search"></i>
+                 
+              </a>
+        </div>
+        
+        
+            
+           
+        
           </ul>
         </div>
       </div>
@@ -37,6 +102,18 @@
           <li><a href="">Pak vs Nep live</a></li>
           <li><a href="">Sco vs Ned-Live</a></li>
           <li><a href="">Csk vs Mi-preview</a></li>
+          <li><a href="">KKR vs RCB-preview</a></li>
+          
+            <select name="format" id="format">
+              <option select disabled>All</option>
+              <option value="All">ALL</option>
+              <option value="fds">fds</option>
+              <option value="fds2">fds2</option>
+              <option value="abc2">abc2</option>
+              <option value="abc3">abc3</option>
+            </select>
+          </div>
+         
           
         </ul>
       </div>
@@ -66,27 +143,43 @@
     </div>
     <div class="runs"><p>LATEST NEWS</p></div>
     <div class="fcontainer2">
+    
       <div class="fitems">
-          <button>Bcci announce schelude for elections</button>
-          <P class="ind2">5 hr ago</P>
+        <li><a href="">Jasprit Bumrah in danger of missing T20 World Cup</a></li>
+        
+        
+        
+          <P class="ind3">5 hr ago</P>
           
       </div>
       <div class="fitems">
-      <button>Women's cricket in India picked up after 2017 WC - Jhulan Goswami</button>
-      <P class="ind">8 hr ago</P>
+
+        <li><a href="">Women's cricket in India picked up after 2017 WC - Jhulan Goswami</a></li>
+        
+      
+      <P class="ind3">8 hr ago</P>
+    
 
       </div>
       <div class="fitems">
-        <button>Rahul Dravid helps out in two IPL committees</button>
         
-        <P class="ind2">Today,8:15 PM</P>
+        
+        <li><a href="">Rahul Dravid helps out in two IPL committees</a></li>
+        
+        
+        <P class="ind3">Today,8:15 PM</P>
       </div>
       <div class="fitems">
-        <button>We are looking to develop winning habit - Nurul Hasan</button>
         
-        <p class="ind">2 Dec,8:00 PM</p>
+        <li><a href="">We are looking to develop winning habit - Nurul Hasan</a></li>
+        
+        <p class="ind3">2 Dec,8:00 PM</p>
+      
+      
+      
       </div>
   </div>
+
   <div class="container">
     <p>AUSTRALIA'S TOUR OF INDIA, 2022</p>
     <img src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c243370/india-search-for-bowling-balan.jpg" alt="">
@@ -94,9 +187,15 @@
   
   </div>
   <div class="runss"><p>FEATURED VIDEO</p>
+    <video class="vdo" src="https://youtu.be/Cgk7A5sxEPQ" controls>
+      
+      <h1 class="conc">Buttler can return "maybe in the last game or two" against Pakistan</h1>
+    </video>
     
   
   </div>
+ 
+  
   
 
     

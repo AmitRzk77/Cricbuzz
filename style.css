@@ -140,7 +140,7 @@ font-family:  Helvetica;
     
     
     padding-left: 5px;
-    width: 1020px;
+    width: 1015px;
     height: 25px;
     
     
@@ -261,6 +261,8 @@ vertical-align: middle;
         border: 2px solid rgb(244, 243, 243);
         width: 150px;
         background-color:#FFFFFF;
+        height: 1000px;
+        text-decoration: none;
     }
     .fitems{
 
@@ -274,13 +276,54 @@ vertical-align: middle;
         text-decoration: none;
         
     }
+    .fitems li a{
+        text-decoration: none;
+        color: #110303;
+
+    }
+    .pic{
+        width: 150px;
+        background-color:#FFFFFF;
+        height: 1000px;
+        margin-left: 150px;
+        margin-right: 0px;
+        margin-top: 15px;
+        
+        
+        
+
+        
+
+    }
+    .pics{
+        color: #110303;
+
+    }
+    .qbc{
+        width: 145px;
+        height: 95px;
+    }
+    .fcontainer3{
+        background-color:#FFFFFF;
+        
+        height: 2000px;
+        width: 500px;
+        margin-left: 154px;
+        margin-top: 50px;
+
+
+    }
+    .content{
+        color: black;
+        
+    }
     .container{
     border: 0.05px solid #FFFFFF;
     
-        height: 433px;
+        height: 420px;
         width: 500px;
-        margin-left: 308px;
-        margin-top: -460px;
+        margin-left: 156px;
+        margin-top: -1490px;
         
         margin-right: 0px;
         /* padding-left:12px; */
@@ -292,9 +335,10 @@ vertical-align: middle;
     }
     .runss{
         width: 360px;
-        height: 420px;
-        margin-left: 813px;
-        margin-top: -435px;
+        height: 366px;
+        margin-left: 661px;
+        margin-top: -421px;
+        margin-bottom: 2px;
     border: 0.05px solid #FFFFFF;
     
         
@@ -306,15 +350,29 @@ vertical-align: middle;
         
 
     }
+    .fcontainer4{
+        width: 363px;
+        height: 1700px;
+        margin-left: 500px;
+        margin-top:-1715px;
+        margin-bottom: 2px;
+        border: 0.05px solid #FFFFFF;
+        background-color: #FFFFFF;
+    
+
+    }
+    .contents{
+
+    }
     .vdo{
         width: 350px;
         height: 200px;
     }
     .conc{
         color: black;
-        height: 20px;
-        width: 20px;
-        font-size: 13px;
+        
+        
+        font-size: 22px;
     }
     .ind{
         color: brown;

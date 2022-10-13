@@ -85,7 +85,7 @@ font-family:  Helvetica;
 .search-box{
     position: absolute;
     top: -0.28%;
-    left: 75%;
+    left: 76%;
     transform: translate(-92%,5%);
     background : rgb(0, 146, 112);
     height: 32px;
@@ -236,8 +236,17 @@ vertical-align: middle;
         
     }
     .fitem:first-child{
-        word-spacing: 90px;
         
+        
+    }
+    .space{
+        word-spacing: 90px;
+
+    }
+    .space1{
+        word-spacing: 0px;
+        text-align:left;
+        padding-left: 36px;
     }
     .runs{
         
@@ -263,6 +272,7 @@ vertical-align: middle;
         background-color:#FFFFFF;
         height: 1000px;
         text-decoration: none;
+        font-size: 13px;
     }
     .fitems{
 
@@ -287,13 +297,23 @@ vertical-align: middle;
         height: 1000px;
         margin-left: 150px;
         margin-right: 0px;
-        margin-top: 15px;
+        margin-top: -13px;
+        
+        text-decoration: none;
+        
+        font-size: 16px;
+        
         
         
         
 
         
 
+    }
+    .diff{
+        font-size: 15px;
+        color: rgb(0, 146, 112);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .pics{
         color: #110303;
@@ -310,10 +330,14 @@ vertical-align: middle;
         width: 500px;
         margin-left: 154px;
         margin-top: 50px;
+        
 
 
     }
     .content{
+        color: black;
+        color: black;
+        color: black;
         color: black;
         
     }
@@ -330,6 +354,7 @@ vertical-align: middle;
         background-color:#FFFFFF;
         text-align: center;
         color: black;
+     font-size: 16px;
 
 
     }
@@ -387,6 +412,7 @@ vertical-align: middle;
     .far fa-user-circle{
         top: 0%;
         left: 80%;
+        color: #FFFFFF;
     }
     #format{
         margin-left:180px;

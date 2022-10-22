@@ -86,7 +86,7 @@ font-family:  Helvetica;
     position: absolute;
     top: -0.28%;
     left: 76%;
-    transform: translate(-92%,5%);
+    transform: translate(-92%,0%);
     background : rgb(0, 146, 112);
     height: 32px;
     border-radius: 51px;
@@ -268,7 +268,7 @@ vertical-align: middle;
         margin-right: 0px;
         margin-top: -12px;
         border: 2px solid rgb(244, 243, 243);
-        width: 150px;
+        width: 147px;
         background-color:#FFFFFF;
         height: 1000px;
         text-decoration: none;
@@ -286,6 +286,10 @@ vertical-align: middle;
         text-decoration: none;
         
     }
+    fitems :hover{
+        color:#24957a;
+    }
+    
     .fitems li a{
         text-decoration: none;
         color: #110303;
@@ -318,6 +322,13 @@ vertical-align: middle;
     }
     .pics{
         color: #110303;
+        text-align: center;
+
+    }
+    .pics li a{
+        text-decoration:none;
+        color: #110303;
+        
 
     }
     .qbc{
@@ -327,9 +338,9 @@ vertical-align: middle;
     .fcontainer3{
         background-color:#FFFFFF;
         
-        height: 2000px;
+        height: 1814px;
         width: 500px;
-        margin-left: 154px;
+        margin-left: 157px;
         margin-top: 50px;
         
 
@@ -350,6 +361,7 @@ vertical-align: middle;
         
         margin-left: 156px;
         margin-top: -1975px;
+        
         
         margin-right: 0px;
         /* padding-left:12px; */
@@ -380,8 +392,8 @@ vertical-align: middle;
     .fcontainer4{
         width: 363px;
         height: 1700px;
-        margin-left: 500px;
-        margin-top:-1534px;
+        margin-left: 505px;
+        margin-top:-1887px;
         margin-bottom: 2px;
         border: 0.05px solid #FFFFFF;
         background-color: #FFFFFF;
@@ -444,8 +456,22 @@ vertical-align: middle;
   .btn{
     border: none;
   }
+  .footerr{
+    background-color:#4A4A4A;
+    color: #FFFFFF;
+    width: 1500px;
+    height: 290px;
+    margin-top: 70px;
+    margin-left: -807px;
+  }
+  .logo2{
+    position: absolute;
+    
+    padding-top: 95px;
+    padding-left:270px
+    
 
-
+  }
     
     
 
